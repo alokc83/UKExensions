@@ -69,6 +69,118 @@
       "symbol": "UIColor.hexStringToUIColor(hex:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Autolayout.swift",
+      "line": 12,
+      "symbol": "UIView.anchorToSuperview(edgeInset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Autolayout.swift",
+      "line": 21,
+      "symbol": "UIView.anchorToSuperviewSafeArea()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Autolayout.swift",
+      "line": 29,
+      "symbol": "UIView.anchor(to:edgeInset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Autolayout.swift",
+      "line": 36,
+      "symbol": "UIView.anchor(centerTo:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 12,
+      "symbol": "UIView.parentViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 26,
+      "symbol": "UIView.cornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 36,
+      "symbol": "UIView.borderWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 46,
+      "symbol": "UIView.borderColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 59,
+      "symbol": "UIView.shadowColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 72,
+      "symbol": "UIView.shadowOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 82,
+      "symbol": "UIView.shadowRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIView/UIView+Extension.swift",
+      "line": 92,
+      "symbol": "UIView.shadowOpacity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIViewController/UIViewController+Extension.swift",
+      "line": 10,
+      "symbol": "UIViewController.dismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIViewController/UIViewController+Extension.swift",
+      "line": 15,
+      "symbol": "UIViewController.topPresentingViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIViewController/UIViewController+Extension.swift",
+      "line": 26,
+      "symbol": "UIViewController.topPresentedViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/Github/UKExtensions/UKExtensions/UIViewController/UIViewController+Extension.swift",
+      "line": 37,
+      "symbol": "UIViewController.isModal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
     }
   ],
   "source_directory": "/Users/alokchoudhary/Documents/Github/UKExtensions"

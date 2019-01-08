@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBAF0FB821E53D9900BBFAD9 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF0FB721E53D9900BBFAD9 /* UIView+Autolayout.swift */; };
+		BBAF0FBA21E53E0C00BBFAD9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF0FB921E53E0C00BBFAD9 /* UIView+Extension.swift */; };
+		BBAF0FBF21E5437F00BBFAD9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF0FBE21E5437F00BBFAD9 /* UIViewController+Extension.swift */; };
+		BBAF0FFC21E546AB00BBFAD9 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF0FFB21E546AB00BBFAD9 /* UIDevice+Extension.swift */; };
+		BBAF0FFF21E54BDF00BBFAD9 /* LocalAuthentication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF0FFE21E54BDF00BBFAD9 /* LocalAuthentication+Extension.swift */; };
 		BBD100A121E3F875002F0387 /* UKExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD1009721E3F875002F0387 /* UKExtensions.framework */; };
 		BBD100A621E3F875002F0387 /* UKExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD100A521E3F875002F0387 /* UKExtensionsTests.swift */; };
 		BBD100A821E3F875002F0387 /* UKExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD1009A21E3F875002F0387 /* UKExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,6 +23,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BBAF0FF321E545AB00BBFAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAF0FEE21E545A900BBFAD9 /* ExampleProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBAF0FCB21E545A800BBFAD9;
+			remoteInfo = ExampleProject;
+		};
+		BBAF0FF521E545AB00BBFAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAF0FEE21E545A900BBFAD9 /* ExampleProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBAF0FDF21E545A900BBFAD9;
+			remoteInfo = ExampleProjectUITests;
+		};
 		BBD100A221E3F875002F0387 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BBD1008E21E3F875002F0387 /* Project object */;
@@ -28,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBAF0FB721E53D9900BBFAD9 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		BBAF0FB921E53E0C00BBFAD9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BBAF0FBE21E5437F00BBFAD9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BBAF0FEE21E545A900BBFAD9 /* ExampleProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExampleProject.xcodeproj; path = ExampleProject/ExampleProject.xcodeproj; sourceTree = "<group>"; };
+		BBAF0FFB21E546AB00BBFAD9 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		BBAF0FFE21E54BDF00BBFAD9 /* LocalAuthentication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalAuthentication+Extension.swift"; sourceTree = "<group>"; };
 		BBD1009721E3F875002F0387 /* UKExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UKExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD1009A21E3F875002F0387 /* UKExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UKExtensions.h; sourceTree = "<group>"; };
 		BBD1009B21E3F875002F0387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,9 +86,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBAF0FB621E53D7200BBFAD9 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BBAF0FB721E53D9900BBFAD9 /* UIView+Autolayout.swift */,
+				BBAF0FB921E53E0C00BBFAD9 /* UIView+Extension.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BBAF0FBD21E5435400BBFAD9 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BBAF0FBE21E5437F00BBFAD9 /* UIViewController+Extension.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		BBAF0FEF21E545A900BBFAD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAF0FF421E545AB00BBFAD9 /* ExampleProject.app */,
+				BBAF0FF621E545AB00BBFAD9 /* ExampleProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBAF0FFA21E5468A00BBFAD9 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				BBAF0FFB21E546AB00BBFAD9 /* UIDevice+Extension.swift */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		BBAF0FFD21E54B6700BBFAD9 /* LocalAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				BBAF0FFE21E54BDF00BBFAD9 /* LocalAuthentication+Extension.swift */,
+			);
+			path = LocalAuthentication;
+			sourceTree = "<group>";
+		};
+		BBAF100021E54DC600BBFAD9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBD100B121E3F97F002F0387 /* UIColor */,
+				BBAF0FB621E53D7200BBFAD9 /* UIView */,
+				BBAF0FBD21E5435400BBFAD9 /* UIViewController */,
+				BBAF0FFA21E5468A00BBFAD9 /* UIDevice */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BBAF100121E54DE200BBFAD9 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BBD100BF21E4087D002F0387 /* Date */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		BBD1008D21E3F875002F0387 = {
 			isa = PBXGroup;
 			children = (
+				BBAF0FEE21E545A900BBFAD9 /* ExampleProject.xcodeproj */,
 				BBD1009921E3F875002F0387 /* UKExtensions */,
 				BBD100A421E3F875002F0387 /* UKExtensionsTests */,
 				BBD1009821E3F875002F0387 /* Products */,
@@ -83,11 +170,12 @@
 		BBD1009921E3F875002F0387 /* UKExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				BBD100BF21E4087D002F0387 /* Date */,
-				BBD100BC21E406E9002F0387 /* Swiftlint */,
-				BBD100B121E3F97F002F0387 /* UIColor */,
+				BBAF100121E54DE200BBFAD9 /* Foundation */,
+				BBAF100021E54DC600BBFAD9 /* UIKit */,
+				BBAF0FFD21E54B6700BBFAD9 /* LocalAuthentication */,
 				BBD1009A21E3F875002F0387 /* UKExtensions.h */,
 				BBD1009B21E3F875002F0387 /* Info.plist */,
+				BBD100BC21E406E9002F0387 /* Swiftlint */,
 			);
 			path = UKExtensions;
 			sourceTree = "<group>";
@@ -215,6 +303,12 @@
 			mainGroup = BBD1008D21E3F875002F0387;
 			productRefGroup = BBD1009821E3F875002F0387 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BBAF0FEF21E545A900BBFAD9 /* Products */;
+					ProjectRef = BBAF0FEE21E545A900BBFAD9 /* ExampleProject.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BBD1009621E3F875002F0387 /* UKExtensions */,
@@ -222,6 +316,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BBAF0FF421E545AB00BBFAD9 /* ExampleProject.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ExampleProject.app;
+			remoteRef = BBAF0FF321E545AB00BBFAD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAF0FF621E545AB00BBFAD9 /* ExampleProjectUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExampleProjectUITests.xctest;
+			remoteRef = BBAF0FF521E545AB00BBFAD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BBD1009521E3F875002F0387 /* Resources */ = {
@@ -244,7 +355,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		BBAF0FB521E530C700BBFAD9 /* Jazzy - Documentation Maker */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -256,7 +367,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\njazzy \\\n--author \"Alok Choudhary\" \\\n--author_url http://alokchoudhary.com \\\n--github_url https://github.com/alokc83/UKExtensions \\\n--module-version 0.0.1 \\\n--umbrella-header UKExtensions/UKExtensions.h \\\n--framework-root . \\\n--module UKExtensions\n#--github-file-prefix https://github.com/AFNetworking/AFNetworking/tree/2.6.2 \\\n";
 		};
@@ -285,8 +396,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBAF0FBF21E5437F00BBFAD9 /* UIViewController+Extension.swift in Sources */,
+				BBAF0FFF21E54BDF00BBFAD9 /* LocalAuthentication+Extension.swift in Sources */,
+				BBAF0FFC21E546AB00BBFAD9 /* UIDevice+Extension.swift in Sources */,
 				BBD100C121E40899002F0387 /* Date+String.swift in Sources */,
+				BBAF0FB821E53D9900BBFAD9 /* UIView+Autolayout.swift in Sources */,
 				BBD100C321E408DD002F0387 /* Date+TimeAgoSince.swift in Sources */,
+				BBAF0FBA21E53E0C00BBFAD9 /* UIView+Extension.swift in Sources */,
 				BBD100B321E3F9A0002F0387 /* UIColor+init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
