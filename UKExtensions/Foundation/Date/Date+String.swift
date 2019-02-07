@@ -28,6 +28,34 @@ public extension Date {
         return toString(dateFormat: "yyyy-MM-dd HH:mm:ss")
     }
     
+    /// Return date String in `Mon Dec 2, 9:00 AM` format
+    ///
+    /// - Returns: return date string as `Mon Dec 2, 9:00 AM`
+    func stringFormatEEE_MM_DD_HH_mm() -> String {
+        return toString(dateFormat: "EEE MMM dd, HH:mm a")
+    }
+    
+    /// Return date String in `Mon Dec 2, 17:00` format
+    ///
+    /// - Returns: return date string as `Mon Dec 2, 17:00`
+    func stringFormatEEE_MM_DD_HH_mm_24HR() -> String {
+        return toString(dateFormat: "EEE MMM dd, HH:mm")
+    }
+    
+    /// Return date String in `FEb 26, 2019` format
+    ///
+    /// - Returns: return date string as `FEb 26, 2019`
+    func stringFormatMMM_DD_yyyy() -> String {
+        return toString(dateFormat: "MMM dd, yyyy")
+    }
+    
+    /// Return date String in `16:40` format
+    ///
+    /// - Returns: return date string as `16:40`
+    func stringFormatHH_MM() -> String {
+        return toString(dateFormat: "HH:mm")
+    }
+    
     /// Returns Seconds since Unix Epoch
     ///
     /// - Returns: 64 bit integer number to represent seconds since Unix Epoch
