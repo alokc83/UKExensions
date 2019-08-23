@@ -397,7 +397,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\njazzy \\\n--author \"Alok Choudhary\" \\\n--author_url http://alokchoudhary.com \\\n--github_url https://github.com/alokc83/UKExtensions \\\n--module-version 0.0.1 \\\n--umbrella-header UKExtensions/UKExtensions.h \\\n--framework-root . \\\n--module UKExtensions\n#--github-file-prefix https://github.com/AFNetworking/AFNetworking/tree/2.6.2 \\\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#jazzy \\\n#--author \"Alok Choudhary\" \\\n#--author_url http://alokchoudhary.com \\\n#--github_url https://github.com/alokc83/UKExtensions \\\n#--module-version 0.0.1 \\\n#--umbrella-header UKExtensions/UKExtensions.h \\\n#--framework-root . \\\n#--module UKExtensions\n#--github-file-prefix https://github.com/AFNetworking/AFNetworking/tree/2.6.2 \\\n";
 		};
 		BBD100BB21E40680002F0387 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
