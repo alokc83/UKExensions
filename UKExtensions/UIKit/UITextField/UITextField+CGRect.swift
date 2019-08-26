@@ -6,6 +6,7 @@
 //  Copyright © 2019 Alok Choudhary. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 extension UITextField {
